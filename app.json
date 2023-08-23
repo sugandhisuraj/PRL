@@ -1,0 +1,37 @@
+{
+  "appVersion": "12.0.1",
+  "squareProduction": true,
+  "stripeProduction": false,
+  "expo": {
+    "name": "players",
+    "slug": "players",
+    "version": "12.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "yes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.prl.prl"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
